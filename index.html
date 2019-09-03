@@ -3,9 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <title>HTMLの書き方</title>
+    <style>
+      body {
+        color: gray;
+      }
+      #headline {
+        color: orange;
+        text-align: center;
+      }
+      .main {
+        background-color: #555555;
+        border-top: solid 20px #009955;
+        border-bottom: solid 20px #009955;
+      }
+      h2 {
+        color: orange;
+      }
+      .main p span {
+        color: red;
+      }
+    </style>
   </head>
   <body>
-    <h1>HTMLの書き方</h1>
-    <p>ここから始めるHTML</p>
+    <div id="headline">
+      <h1>HTMLの書き方</h1>
+      <p>ここから始めるHTML</p>
+    </div>
+    <div class="main">
+      <h2>H2の見出し</h2>
+      <p>これは文章中でも特に<span class="light">協調したい</span>ところ</p>
+      <p><a href="https://yahoo.co.jp">yahooへのリンクも貼ってみる</a></p>
+    </div>
   </body>
 </html>
