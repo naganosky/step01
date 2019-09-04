@@ -5,16 +5,29 @@
     <title>HTMLの書き方</title>
     <style>
       body {
+        font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',serif;
+        line-height: 1.5;
         color: gray;
+
       }
       #headline {
         color: orange;
         text-align: center;
       }
       .main {
+        width: 900px;
+        align: center;
+        text-align: center;
+        margin-right:auto;
+        margin-left:auto;
         background-color: #555555;
         border-top: solid 20px #009955;
         border-bottom: solid 20px #009955;
+      }
+      img {
+        width: 900px;
+        max-width: 100%;
+        height: auto;
       }
       h2 {
         color: orange;
@@ -22,7 +35,14 @@
       .main p span {
         color: red;
       }
+      .my-orange{
+        color: orange;
+      }
+      .my-aqua{
+        color: aqua;
+      }
     </style>
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
   <body>
     <div id="headline">
@@ -31,8 +51,17 @@
     </div>
     <div class="main">
       <h2>H2の見出し</h2>
-      <p>これは文章中でも特に<span class="light">協調したい</span>ところ</p>
+      <p>これは文章中でも特に<span class="light">強調したい</span>ところ</p>
+      <p>
+        <i class="fas fa-basketball-ball fa-3x"></i>
+        <i class="fas fa-basketball-ball my-orange fa-spin fa-3x"></i>
+        <i class="fas fa-basketball-ball my-aqua fa-3x"></i>
+      </p>
+      <p><b>太字にする</b></p>
       <p><a href="https://yahoo.co.jp">yahooへのリンクも貼ってみる</a></p>
+    </div>
+    <div class="image">
+      <img src="./img/fibonacci.gif" alt＝”フィボナッチ”>
     </div>
   </body>
 </html>
