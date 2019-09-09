@@ -16,13 +16,35 @@
       }
       .main {
         width: 900px;
-/*        text-align: center;*/
         margin-right:auto;
         margin-left:auto; 
         background-color: #555555;
         border-top: solid 20px #009955;
         border-bottom: solid 20px #009955;
       }
+
+      .explain {
+        position: relative;
+        padding: 0;
+      }
+      .explain span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        color: white;
+        background: #74c1f8;
+        padding:0 2px;
+        line-height:1.5;
+      }
+
+      #fixed {
+        position: fixed;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 5%;
+      }
+      
       img {
         width: 900px;
         max-width: 100%;
@@ -45,6 +67,9 @@
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
   </head>
   <body>
+    <p id="fixed">
+      <img src="./img/cardboardbox-1.png" alt="段ボール箱">
+    </p>
     <div id="headline">
       <h1>HTMLの書き方</h1>
       <p>ここから始めるHTML</p>
@@ -54,7 +79,7 @@
       <p>これは文章中でも特に<span class="light">強調したい</span>ところ</p>
       <p>
         <i class="fas fa-basketball-ball fa-3x"></i>
-        <i class="fas fa-basketball-ball my-orange fa-spin fa-3x"></i>
+        <i class="fas fa-basketball-ball my-orange fa-3x"></i>
         <i class="fas fa-basketball-ball my-aqua fa-3x"></i>
       </p>
       <p><b>太字にする</b></p>
@@ -71,7 +96,10 @@
         <li>するとよいらしい</li>
       </ul>
     <div class="image">
-      <img src="./img/fibonacci.gif" alt＝”フィボナッチ”>
+      <img src="./img/fibonacci.gif" alt="フィボナッチ">
+    </div>
+    <div class="explain">
+      <span>黄金螺旋</span>
     </div>
   </body>
 </html>
