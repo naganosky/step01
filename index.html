@@ -23,11 +23,20 @@
         border-bottom: solid 20px #009955;
       }
 
-      .explain {
+      .image {
+        width: 800px;
+        align-items: center;
         position: relative;
         padding: 0;
+        max-width: 100%;
+        height: auto;
       }
-      .explain span {
+      .image img{
+        width: 900px;
+        margin-right:auto;
+        margin-left:auto;
+      }
+      .image span {
         position: absolute;
         bottom: 0;
         right: 0;
@@ -37,19 +46,14 @@
         line-height:1.5;
       }
 
-      #fixed {
+      #fixed img {
         position: fixed;
         top: 0;
         left: 0;
         margin: 0;
-        width: 5%;
+        width: 5%;        
       }
       
-      img {
-        width: 900px;
-        max-width: 100%;
-        height: auto;
-      }
       h2 {
         color: orange;
       }
@@ -86,8 +90,6 @@
     </div>
     <div class="image">
       <img src="./img/fibonacci.gif" alt="フィボナッチ">
-    </div>
-    <div class="explain">
       <span>黄金螺旋</span>
     </div>
   </body>
