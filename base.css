@@ -20,11 +20,11 @@ body {
   border-bottom: solid 20px #009955;
 }
 
-.explain {
+.image {
   position: relative;
   padding: 0;
 }
-.explain span {
+.image span {
   position: absolute;
   bottom: 0;
   right: 0;
