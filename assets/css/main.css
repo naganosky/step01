@@ -76,11 +76,22 @@ h2 {
 
 table {
   border-collapse: collapse;
+  width: 500px;
   margin: 0 auto;
+  color: white;
+  background: #00aabb;
 }
 
 table th, table td {
-  border: solid 1px black;
+  border: solid 1px white;
   padding: 8px;
+}
+
+table tr.even {
+  background: #00aabb;
+}
+
+table tr.odd {
+  background: #88aacc;
 }
 /*# sourceMappingURL=main.css.map */
