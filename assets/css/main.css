@@ -1,0 +1,97 @@
+@charset "UTF-8";
+body {
+  font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',serif;
+  line-height: 1.5;
+  color: gray;
+  text-align: center;
+}
+
+#headline {
+  color: orange;
+  text-align: center;
+}
+
+.main {
+  width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #555555;
+  border-top: solid 20px #009955;
+  border-bottom: solid 20px #009955;
+}
+
+.image {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  padding: 0;
+}
+
+.image span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  background: #74c1f8;
+  padding: 0 2px;
+  line-height: 1.5;
+}
+
+#fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: 0;
+  width: 5%;
+}
+
+li {
+  list-style-position: inside;
+}
+
+img {
+  width: 900px;
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  color: orange;
+}
+
+.main p span {
+  color: red;
+}
+
+.my-orange {
+  color: orange;
+}
+
+.my-aqua {
+  color: antiquewhite;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+  margin: 0 auto;
+  color: white;
+  background: #00aabb;
+}
+
+table th, table td {
+  border: solid 1px white;
+  padding: 8px;
+}
+
+table tr.even {
+  background: #00aabb;
+}
+
+table tr.odd {
+  background: #88aacc;
+}
+/*# sourceMappingURL=main.css.map */
