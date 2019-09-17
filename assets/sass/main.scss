@@ -4,18 +4,17 @@ body {
   font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',serif;
   line-height: 1.5;
   color: gray;
-  text-align: center;
+  text-align: left;
 }
 
 #headline {
   color: orange;
-  text-align: center;
+  text-align: left;
 }
 
 .main {
   width: 900px;
-  margin-right: auto;
-  margin-left: auto;
+
   background-color: #555555;
   border-top: solid 20px #009955;
   border-bottom: solid 20px #009955;
@@ -110,6 +109,24 @@ table{
     &.odd{
       background: #88aacc;
     }
+  }
+}
+
+blockquote{
+  position: relative;
+  background: #EFEFEF;
+  padding: 50px 10px 15px;
+  border-left: 4px solid #9dd4ff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.14);
+  &::before{
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    content: '\f10d';
+    font-weight: 900; 
+    top: 10px;
+    left: 10px;
+    color: #9dd4ff;
+    font-size: 1.5em;
   }
 }
 
